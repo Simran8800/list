@@ -4,7 +4,7 @@ i=1
 while i <l:
     if a[i] ==a[i+1] :
         print(a[i])
-        i+=1
+        i=i+1
 
 
 

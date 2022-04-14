@@ -10,10 +10,9 @@ column2=0
 diagonal1=0
 diagonal2=0
 i=0
-j=0
-while j<len(magic_Square[i]):
+while i<len(magic_Square):
     j=0
-    while j<len(magic_Square):
+    while j<len(magic_Square[i]):
         if i==0:
             row+=magic_Square[i][j]
         elif i==1:
@@ -46,6 +45,14 @@ while b<len(magic_Square):
     b=b+1
 
 if row==row1==row2==column==column1==column2==diagonal1==diagonal2:
+    print("row=",row)
+    print("row1=",row1)
+    print("row2=",row2)
+    print("column=",column)
+    print("column1=",column1)
+    print("column2=",column2)
+    print("diagonal1=",diagonal1)
+    print("diagonal2=",diagonal2)
     print("It is a magic square.")
 else:
     print("It isn't a magic square")

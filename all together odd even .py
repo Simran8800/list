@@ -5,7 +5,7 @@ odd=0
 while i<len(elements):
     k=elements[i]
     sum=0
-    sum=sum+elements[i]
+    sum=sum+k
     if k%2==0:
         print("total even no",k)
         even+=sum

@@ -13,6 +13,5 @@ for j in range (length2):
     c.append(diff1)
 print(c)
     
-    
-    
+
 
